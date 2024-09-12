@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: "Happy Monkey", sans-serif;
+    text-align: center;
+    background-color: #ffc9d1;
+    color: white;
+    font-size: 28px;
+}
+.hero {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+h1 {
+    font-size: 2em;
+    text-shadow: 0px 0px 2px rgb(67, 168, 202);
+}
+.circleImage {
+    border-radius: 50%;
+    border: lightblue solid 12px;
+    margin: 25px auto;
+}
+.redText {
+    color: rgb(228, 12, 12);
+}
+.blueBG {
+    background-color: lightblue;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-shadow: 0px 0px 2px #ffc9d1;
+    margin: 10px auto;
+}
+.giftContainer {
+    padding: 0;
+}
+.giftContainerImg {
+    background-image: url(./gift-cover.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin: 25px auto;
+    border: lightblue solid 12px;
+    border-radius: 15px; 
+}
+#giftContainerImg1:hover {
+    background-image: url(./Boy-Reaching-for-Stars.png);
+    background-size: cover;
+}
+#giftContainerImg2:hover {
+    background-image: url(./culture.jpg);
+    background-size: cover;
+}
+#giftContainerImg3:hover {
+    background-image: url(./happy_leap.png);
+    background-size: cover;
+}
