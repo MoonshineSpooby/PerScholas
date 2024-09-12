@@ -16,7 +16,7 @@ favouriteEdgeStyle("soft")
 
 
 ////////////////////////////////////
-// IGONE THE CODE BELOW THIS LINE //
+// IGNORE THE CODE BELOW THIS LINE //
 ////////////////////////////////////
 
 function setProp(prop, value) {
