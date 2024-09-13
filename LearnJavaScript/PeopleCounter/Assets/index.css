@@ -1,0 +1,43 @@
+body {
+    background-image: url("station.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    font-size: 50px;
+    color: #0c719c;
+}
+.hero {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero div {
+    display: inline;
+}
+
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+#increment-btn {
+    background: #0c719c;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+#reset-btn {
+    background-color: darkred;
+}
+
