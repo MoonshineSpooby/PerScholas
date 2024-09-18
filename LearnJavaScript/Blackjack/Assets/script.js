@@ -131,7 +131,7 @@ function aceRoutine() {
 }
 function checkGameState(){
     if(playerAceHand == 21 && playerCardCount == 2){
-        
+        aceRoutine();
         if(dealerAceHand == 21){
             playMSG.textContent = "Damn the dealer got blackjack too. Push..";
             gameOver();
