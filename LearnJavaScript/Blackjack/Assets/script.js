@@ -102,7 +102,6 @@ function stand(){
     
     checkGameState(); 
 }
-
 function aceRoutine() {
     if(dealerCards.innerText.includes("A")){
         dealerAceHand = dealerHandValue + 10;
