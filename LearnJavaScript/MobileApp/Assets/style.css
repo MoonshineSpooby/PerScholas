@@ -1,0 +1,30 @@
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    min-width: 400px;
+}
+#input-el {
+    width: 80%;
+    padding: 5% 10%;
+    background-color: lightblue;
+    color: purple;
+    font-size: 1.5rem;
+}
+#btn-section {
+    display: flex;
+    flex-flow: row nowrap;
+}
+#save-btn, #clear-btn {
+    text-align: center;
+    width: 50%;
+    padding: 3% 7%;
+    font-size: 2rem;
+}
